@@ -8,9 +8,67 @@
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/type.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   </head>
   <body>
+    <section class="contact">
+  <div>
+    <header class="island-1-2">
+      <h1 class="pad-t-1-2 pad-b-1-2 push-0 zetta">Apply to be a tree planter</h1>
+      <p class="mega">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+    </header>
+
+    <form class="push-0 gutter-1-2" action="..." method="post">
+
+      <fieldset class="push-0 pad-t-1-2 pad-b">
+        <legend class="giga pad-t-2 pad-b">Personal details</legend>
+
+        <div class="grid">
+          <div class="name unit xs-1 m-1-2 l-1-2 xl-1-2 push">
+            <label class="push-1-8" for="name">Full name</label>
+            <input id="name" class="push-1-8" required>
+            <p class="italic micro push-0">Your full legal name, for insurance purposes, e.g. "Elizabeth Bradley"</p>
+          </div>
+
+          <div class="nickname unit xs-1 m-1-2 l-1-2 xl-1-2 push">
+            <label class="push-1-8" for="nick-name">What should we call you?</label>
+            <input id="nick-name" class="push-1-8" required>
+            <p class="micro italic push-0">What all your friends call you, e.g. “Liz”.</p>
+          </div>
+
+          <div class="date unit xs-1 m-1-2 l-1-2 xl-1-2 push">
+            <label class="push-1-8" for="birthday">Date of birth</label>
+            <input id="birthday" type="date" required>
+          </div>
+
+          <div class="subject unit xs-1 m-1-2 l-1-2 xl-1-2 push">
+            <label class="push-1-8" for="subject">T-shirt size</label>
+            <select id="subject" name="subject" required>
+              <option value="">Select a t-shirt size</option>
+              <option value="">Fitted: XS</option>
+              <option value="">Fitted: S</option>
+              <option value="">Fitted: M</option>
+              <option value="">Fitted: L</option>
+              <option value="">Fitted: XL</option>
+              <option value="">Straight-cut: XS</option>
+              <option value="">Straight-cut: S</option>
+              <option value="">Straight-cut: M</option>
+              <option value="">Straight-cut: L</option>
+              <option value="">Straight-cut: XL</option>
+            </select>
+          </div>
+
+          <div class="email unit xs-1 s-1 m-1-2 l-1-2 push">
+            <label class="push-1-8" for="email">Email</label>
+            <input type="email" id="email" required>
+          </div>
+
+          <div class="tel unit xs-1 s-1 m-1-2 l-1-2 push-1-2">
+            <label class="push-1-8" for="tel">Phone number <span class="it-option italic">(optional)</span></label>
+            <input type="tel" id="tel">
+          </div>
+        </div>
+      </fieldset>
 
   </body>
 </html>
