@@ -3,7 +3,7 @@ html {
   border: 1rem;
 }
 
-header {
+header, .header {
   background-color: #70ad55;
   color: #fff;
 }
@@ -11,6 +11,10 @@ header {
 footer {
   background-color: #70ad55;
   color: #fff;
+}
+
+fieldset {
+    border: 0;
 }
 
 input {
